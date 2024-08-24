@@ -1,0 +1,489 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+.parent
+{
+	height: auto;
+	width: 100%;
+	border: 1px solid;
+}
+.p1
+{
+	height: 450px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+}
+.p2
+{
+	height: 450px;
+	width: 20%;
+	border: px solid;
+	background-color: #d0a14f;
+}
+.p3
+{
+	height: 450px;
+	width: 80%;
+	border: px solid;
+	background-image: url(p1.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #d0a14f;
+	background-blend-mode: screen;*/
+/*	opacity: 60%;*/
+/*	background: linear-gradient(#d0a14f,lightblue);*/
+
+}
+.p6
+{
+	height: 200px;
+	width: 70%;
+	border: px solid;
+	margin-top: 15%;
+}
+.p6 h1
+{
+	color: white;
+	margin-left: 10%;
+
+}
+.p6 p
+{
+	color: white;
+	margin-left: 10%;
+}
+.p6 button
+{
+	height: 30px;
+	width: 20%;
+	border-radius: 20px;
+	margin-left: 10%;
+	cursor: pointer;
+	color: white;
+}
+.p7
+{
+	height: 150px;
+	width: 20%;
+	border: 1px solid;
+	margin-left: 80%;
+	position: relative;
+	bottom: 20px;
+	border-radius: 40% 50% 40% 50%;
+	border-color:#d0a14f;
+	border-width: 4px;
+}
+.p7 h1
+{
+	font-size: 15px;
+	color: white;
+	font-family: "Roboto Condensed", sans-serif;
+	margin-left: 28%;
+	position: relative;
+	bottom: 38px;
+}
+.p7 button
+{
+	height: 20px;
+	width: 50%;
+	font-size: 15%;
+	position: relative;
+	bottom: 40px;
+	margin-left: 25%;
+	border-radius: 20px;
+	background-color: #d0a14f;
+	color: white;
+	border-color: #d0a14f;
+	cursor: pointer;
+}
+.p8
+{
+	height: 70px;
+	width: 45%;
+	border: 1px solid;
+	margin-left: 30%;
+	position: relative;
+	bottom: 30px;
+	border-radius: 50%;
+	border-color:#d0a14f;
+	border-width: 4px;
+	background-image: url(p1.jfif);
+	background-size: cover;
+
+}
+.p4
+{
+	height: 225px;
+	width: 100%;
+	border: px solid;
+}
+.p4 img
+{
+	height: auto;
+	width: 70%;
+	margin-top: 20%;
+	margin-left: 10%;
+
+}
+.p5
+{
+	height: 225px;
+	width: 100%;
+	border: px solid;
+}
+.p5 ul li
+{
+	list-style: none;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: -40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+@media(max-width: 800px)
+{
+	.p6 button
+	{
+		font-size: 10px;
+	}
+	.p7
+	{
+		position: relative;
+		right: 40px;
+		width: 25%;
+	}
+	.p4 img
+	{
+		height: auto;
+		width: 100%;
+		margin-left: -2%;
+	}
+}
+@media(max-width: 670px)
+{
+
+	.p7
+	{
+		position: relative;
+		right: 55px;
+		width: 30%;
+		top: 10px;
+	}
+}
+@media(max-width: 640px)
+{
+
+	.p7
+	{
+		position: relative;
+		right: 55px;
+		width: 30%;
+		top: 20px;
+	}
+	.p6 button{
+		font-size: 7px;
+	}
+	.p7
+	{
+		display: none;
+	}
+	.p6
+	{
+		margin-top: 140px;
+		width: 100%;
+	}
+}
+@media(max-width: 500px)
+{
+	.p4
+	{
+		height: 150px;
+
+	}
+	.p4 img
+	{
+		width: 100%;
+		height: auto;
+	}
+	.p5
+	{
+		height: 250px;
+	}
+	.p5 ul li
+	{
+		font-size: 10px;
+		margin-top: 20px;
+	}
+}
+@media(max-width: 420px)
+{
+	
+	.p4 img
+	{
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+	}
+	
+}
+@media(max-width: 350px)
+{
+	.p6 button
+	{
+		width: 30%;
+	}
+}
+
+
+
+.parent1
+{
+	height: 150px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+}
+.p9
+{
+	height: 150px;
+	width: 20%;
+	border: px solid;
+	background-color: #d0a14f;
+}
+.p10
+{
+	height: 150px;
+	width: 80%;
+	border: px solid;
+}
+.p10 h1
+{
+	margin-left: 8%;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 30px;
+}
+.p10 p
+{
+	font-size: 15px;
+	margin-left: 8%;
+}
+.p10 span
+{
+	color: red;
+}
+
+@media(max-width:366px)
+{
+	.p10 p
+	{
+		font-size: 10px;
+	}
+	.p10 h1
+	{
+		font-size: 25px;
+	}
+}
+
+.parent2
+{
+	height: 300px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+}
+.p11
+{
+	height: 300px;
+	width: 20%;
+	border: px solid;
+	background-color: #d0a14f;
+}
+
+.p12
+{
+	height: 300px;
+	width: 80%;
+	border: px solid;
+	display: flex;
+}
+.p12 h1
+{
+	font-size: 20px;
+	color: darkred;
+}
+.p13
+{
+	height: 180px;
+	width: 30%;
+	border: px solid;
+	position: relative;
+	top: 80px;
+	border-radius: 20px;
+	background-color: #d0a14f;
+}
+.p14
+{
+	height: 180px;
+	width: 30%;
+	border: px solid;
+	position: relative;
+	top: 80px;
+	margin-left: 80px;
+	border-radius: 20px;
+	background-color: #d0a14f;
+}
+.p15
+{
+	height: 180px;
+	width: 100%;
+	border: px solid;
+	border-radius: 20px;
+	transform: rotate(10deg);
+}
+.p15 img
+{
+	height: 180px;
+	width: 100%;
+	border-radius: 20px;
+}
+.p16
+{
+	height: 30px;
+	width: 80%;
+	border: 1px solid;
+	position: relative;
+	bottom: 28px;
+	margin-left: 20px;
+	border-radius: 20px;
+	background-color: white;
+	border-color: white;
+}
+.p16 h1
+{
+	font-size: 10px;
+	margin-left: 14px;
+}
+.p16 button
+{
+	border-radius:50%;
+	left: 40px;
+	position: relative;
+	background-color: darkred;
+
+}
+.p16 button i {
+	color: white;
+}
+@media(max-width: 894px)
+
+{
+	.parent2
+	{
+		height: 650px;
+	}
+	.p11
+	{
+		height: 650px;
+	}
+
+	.p12
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 650px;
+	}
+	.p13
+	{
+		width: 90%;
+	}
+	.p14
+	{
+		width: 90%;
+		position: relative;
+		right: 33px;
+		margin-top: 80px;
+	}
+
+}
+
+.parent3
+{
+	height: 300px;
+	width: 100%;
+	border: px solid;
+	display: flex;
+}
+.p17
+{
+	height: 300px;
+	width: 20%;
+	border: px solid;
+	background-color: #d0a14f;
+}
+
+.p18
+{
+	height: 300px;
+	width: 80%;
+	border: px solid;
+	background-image: url(p5.jfif);
+	background-size: cover;
+	
+
+}
+.p18 h1
+{
+	font-size: 30px;
+	color: darkred;
+	text-align: center;
+	margin-top: 70px;
+}
+.p18 p
+{
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+.p18 button
+{
+	height: 30px;
+	width: 30%;
+	border-radius: 20px;
+	margin-left: 35%;
+	background-color: #d0a14f;
+	color: white;
+	border-color: #d0a14f;
+}
+
+@media(max-width:640px)
+{
+	.p18 button
+	{
+		font-size: 10px;
+	}
+}
+@media(max-width:500px)
+{
+	.p18 button
+	{
+		width: 40%;
+		font-size: 8px;
+
+	}
+}
+}
+@media(max-width:320px)
+{
+	.p18 button
+	{
+		width: 80%;
+		font-size: 4px;
+
+	}
+}
